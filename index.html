@@ -1,8 +1,8 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <link rel="stylesheet" href="">
-    <link rel="stylesheet" href="">
+    <link rel="stylesheet" href="assets/css/reset.css">
+    <link rel="stylesheet" href="assets/css/style.css">
     <title>Crystal Collector!</title>
 </head>
 <body>
@@ -19,24 +19,27 @@
         <p>Each time the game starts, the game will change the value of each crystal.</p>
     </div>
     <h2>Random Number:
-        <span></span>
+        <span id="current-number"></span>
     </h2>
-    <div>
-        <h3>Wins:
-            <span></span>
-        </h3>
-        <h3>Losses:
-            <span></span>
-        </h3>
+    <div>    
+        <p id="winner-loser"><p>
+        <p>Wins:
+            <span id="wins"></span>
+        </p>
+        <p>Losses:
+            <span id="losses"></span>
+        </p>
     </div>
     <div>
-        <img src="" alt="">
-        <img src="" alt="">
-        <img src="" alt="">
-        <img src="" alt="">
+        <button><img id="red" src="assets/images/red-crystal.png" alt="" value="" class="crystals"></img></button> 
+        <button><img id="blue" src="assets/images/blue-crystal.png" alt="" value="" class="crystals"></img></button>
+        <button><img id="yellow" src="assets/images/yellow-crystal.png" alt="" value="" class="crystals"></img></button>
+        <button><img id="green" src="assets/images/green-crystal.png" alt="" value="" class="crystals"></img></button>
     </div>
-    <h4>Your total score:
-        <span></span>
-    </h4>
+    <h3>Your total score:
+        <span id="player-score"></span>
+    </h3>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="assets/javascript/game.js"></script>
 </body>
 </html>
