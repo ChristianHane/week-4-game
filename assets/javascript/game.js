@@ -37,7 +37,7 @@ function turnComplete() {
         startGame();
     }
     else if (currentNumber < playerScore) {
-        lossCounter--;
+        lossCounter++;
         $("#winner-loser").html("You lost!!");        
         console.log(lossCounter);
         startGame();

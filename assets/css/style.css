@@ -2,3 +2,87 @@ img {
     width: 50px;
     max-height: 70px;
 }
+
+body {
+    background-image: url(../images/background.png);
+    margin: 10px 0 0 10px;
+}
+
+h1 {
+    text-align: center;
+    font-size: 25pt;
+    color: white;
+    background-color: red;
+    height: 35px;
+    width: 250px;
+    padding: 5px 0;
+}
+
+#game-instructions {
+    font-size: 13pt;
+    background-color: beige;
+    color: red;
+    width: 400px;
+    margin-top: 10px;
+    padding: 5px;
+}
+
+#game-instructions p {
+    margin-bottom: 15px;
+}
+
+h2 {
+    background-color: green;
+    font-size: 20pt;
+    width: 200px;
+    padding: 10px;
+    margin-top: 10px;
+    float: left;
+    clear: both;
+}
+
+#score {
+    font-size: 12pt;
+    background-color: skyblue;
+    float: left;
+    width: 140px;
+    height: 63px;
+    margin: 10px 0px 0px 10px;
+    padding: 10px 0 0 10px;
+}
+
+#score p {
+    margin-top: 2px;
+}
+
+#buttons {
+    clear: both;
+    padding-top: 10px;
+}
+
+h3 {
+    font-size: 15pt;
+    color: white;
+    background-color: teal;
+    width: 200px;
+    margin-top: 10px;
+    padding: 10px;
+}
+
+button {
+    background-color:white;
+    border-radius: 6px;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    margin-right: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: grey;
+}
+
+button:active {
+    background-color: #3e8e41;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+}
